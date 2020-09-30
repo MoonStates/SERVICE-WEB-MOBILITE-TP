@@ -1,10 +1,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.service_mobilite_tp.MainActivity">
+    tools:context="com.example.service_mobilite_tp.Jeu.MainActivity">
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:id="@+id/Question"
+        android:enabled="true"
+        android:icon="@drawable/picto_question"
+        android:title="@string/enigme_title"
+      />
+    <item
+        android:id="@+id/Scan"
+        android:enabled="true"
+        android:icon="@drawable/picto_scan"
+        android:title="@string/scan_bar_title"
+    />
+
 </menu>
